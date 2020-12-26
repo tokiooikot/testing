@@ -1,0 +1,35 @@
+@import "_colores";
+
+@mixin sizes($height, $width, $color, $colorLetra, $flex, $just-c, $align-i){
+    height: $height;
+    width: $width;
+    background-color: $color;
+    color: $colorLetra;
+    display: $flex;
+    justify-content: $just-c;
+    align-items: $align-i;
+}
+
+body{
+    background-color: $fondo;
+    color: $letra;
+}
+
+.articulo__derecha__parrafo .articulo__izquierda__parrafo{
+        font-weight: $parrafoNegrita;
+}
+
+.pie__parrafo{
+    background-color: $fondoPie;
+    color: $fondoLetra;
+}
+
+.pie__parrafo--modificado{
+    background-color: $fondoPie;
+    color: $fondoLetraModificada;
+}
+
+.parrafo{
+    @include sizes(150px, 100%, white, black, flex, center, center)
+}
+

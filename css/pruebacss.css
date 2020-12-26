@@ -1,0 +1,23 @@
+body {
+  background-color: #343a40;
+  color: white; }
+
+.articulo__derecha__parrafo .articulo__izquierda__parrafo {
+  font-weight: bold; }
+
+.pie__parrafo {
+  background-color: #1c1c1c;
+  color: #81d8d0; }
+
+.pie__parrafo--modificado {
+  background-color: #1c1c1c;
+  color: #058175; }
+
+.parrafo {
+  height: 150px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
